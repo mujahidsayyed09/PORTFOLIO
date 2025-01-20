@@ -1,0 +1,327 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujahid Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins">
+    <!---introduction---->
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+        <!---navbar-->
+        <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="container mx-auto py-5 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="./img/logo.png" alt="logo">
+                <span class="text-2xl font-bold text-indigo-900 dark:text-white"><code>&lt;/&gt;</code></span>
+            </div>
+            <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm dark:text-gray-100">
+                <li class="hover:text-gray-500">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#skills">SKILLS</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#certifications">CERTIFICATES</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#works">WORKS</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <!---Night/Day toggle-->
+            <label class="relative inline-flex cursor-pointer items-center">
+                <input id="toggle" type="checkbox" class="peer sr-only" />
+                <label for="switch" class="hidden"></label>
+                <div class="peer h-6 w-11 rounded-full border bg-slate-200 after:absolute after:left-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-slate-800 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:ring-green-300"></div>
+            </label>
+            <!---hamburger-->
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+            <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                <li>
+                    <a id="hLink" href="#">HOME</a>
+                </li>
+                <li>
+                    <a id="hLink" href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a id="hLink" href="#skills">SKILLS</a>
+                </li>
+                <li>
+                    <a id="hLink" href="#certifications">CERTIFICATIONS</a>
+                </li>
+                <li>
+                    <a id="hLink" href="#works">WORKS</a>
+                </li>
+                <li>
+                    <a id="hLink" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <!--intro content-->
+        <!---image-->
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/man.png" alt="man">
+        <!---circle-->
+        <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+        <!---animated text-->
+        <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+            <span class="text-gray-600">Software</span>
+            <p id="text" class="text-red-500"></p>
+        </div>
+        <!---texts-->
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Sayyed</h1>
+            <p class="text-gray-400">welcome to my portfolio! Explore my skills, projects, certifiates. Contact me for enquiry.</p>
+            <!--social icons-->
+            <div class="flex gap-2 ">
+                <a href="https://www.facebook.com/login/" target="_blank" ><img class="w-10 cursor-pointer" src="img/homefacebook.png" alt="facebook logo"></a>
+                <a href="https://www.instagram.com/login" target="_blank"><img class="w-8 cursor-pointer" src="img/homeinstagram.png" alt="instagram logo" class="items-center"></a>
+                <a href="https://x.com/" target="_blank" ><img class="w-10 cursor-pointer" src="img/hometwitter.png" alt="twitter logo"></a>
+                <a href="https://www.linkedin.com/in/mujahidsayyed" target="_blank" ><img class="w-8 cursor-pointer" src="img/homelink.png" alt="linkedin logo"></a>
+            </div>
+            <!----->
+            <a class="bg-indigo-600 text-white text-xl px-3 py-2 w-fit rounded-md font-semibold  transition-all duration-300 ease-in-out hover:scale-105 " href="./img/resume.pdf" download="resume.pdf">Download Resume</a>
+        </div>
+    </div>
+    <!---about-->
+    <div id="about" class="px-10 py-40 dark:bg-slate-900">
+        <div class="container mx-auto py-10 flex flex-col-reverse lg:flex-row items-center gap-20">
+            <!---left-->
+            <div class="relative">
+                <div class="h-full rounded-full overflow-hidden hover:scale-105">
+                    <img src="img/portrait.png" alt="portrait" class="hover:shadow-emerald-950 transition-all duration-300 ease-in-out hover:scale-105 ">
+                </div>
+            </div>
+            <!--right-->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
+                <h1 class="text-2xl font-medium dark:text-white">Mujahid Sayyed</h1>
+                <h1 class="text-lxl font-medium dark:text-white italic">Aspiring Software Developer | Computer Science Graduate</h1>
+                <p class="text-gray-400 w-auto">
+                    I am a passionate software developer with a strong foundation in computer science, holding a degree from Ruparel College, Matunga. My enthusiasm for coding drives me to create innovative, efficient, and user-friendly solutions. Open to learning and exploring new technologies, I am dedicated to contributing to impactful projects and growing in a dynamic work environment. Currently based in Kalyan, I am open to relocation for the right opportunity.
+                </p>
+                <span class="text-indigo-500">Read More</span>
+            </div>
+        </div>
+    </div>
+    <!----Skills-->
+    <div id="skills" class="flex flex-col justify-center pt-[5.5rem] py-10 dark:bg-slate-900">
+            <h1 class="text-indigo-600 font-bold text-center mb-5">SKILLS</h1>
+            <h1 class="text-2xl font-medium dark:text-white text-center">Languages I've learned</h1>
+        <div class="container mx-auto py-10 flex flex-col lg:flex-row items-center gap-0.5">
+        <!---horizontal statistics-->
+        <div class="w-full px-10">
+            <h2 class="text-gray-400 font-medium">HTML</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">JAVASCRIPT</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">REACT</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class=" bg-indigo-600 h-1.5 rounded-md" style="width: 250px;"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">CSS</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">PYTHON</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md" style="width: 200px;"></div>
+            </div>
+            <h2 class="text-gray-400 font-medium">JAVA</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md" style="width: 150px;"></div>
+            </div>
+        </div>
+        <!--circular progress bar-->
+        <div class="container flex flex-row py-10 justify-around">
+            <div class="relative size-40">
+                <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-blue-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="65" stroke-linecap="round"></circle>
+                </svg>
+                <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                    <span class="text-center text-2xl font-bold text-blue-600">85%</span>
+                </div>
+                <h2 class="text-center dark:text-white">Problem Solving</h2>
+            </div>
+            <div class="relative size-40">
+                <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-blue-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="65" stroke-linecap="round"></circle>
+                </svg>
+                <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                    <span class="text-center text-2xl font-bold text-blue-600">70%</span>
+                </div>
+                <h2 class="text-center dark:text-white">UI/UX Design</h2>
+            </div>
+            <div class="relative size-40">
+                <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-blue-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="65" stroke-linecap="round"></circle>
+                </svg>
+                <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                    <span class="text-center text-2xl font-bold text-blue-600">90%</span>
+                </div>
+                <h2 class="text-center dark:text-white">Version Control</h2>
+            </div>
+            <div class="relative size-40">
+                <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+                    <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-blue-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="65" stroke-linecap="round"></circle>
+                </svg>
+                <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                    <span class="text-center text-2xl font-bold text-blue-600">95%</span>
+                </div>
+                <h2 class="text-center dark:text-white">Team Collaboration</h2>
+            </div>
+        </div>
+        </div>
+    </div>
+    </body>
+    
+    <!----certification-->
+    <div id="certifications" class="dark:bg-slate-900">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center pt-[67px]">
+            <!---top-->
+            <h1 class="text-indigo-600 font-bold">CERTIFICATIONS</h1>
+            <p class=" text-center text-gray-400 w-auto">
+                I have many certificates, achieved through dedication.Below are three examples.
+            </p>
+            </div>
+            <!---certificates-->
+            <div class="flex flex-row justify-around">
+                <!--certificate thumbnail-->
+                <div class="flex flex-col">
+                    <img src="./img/certificate1.png" alt="Certificate 1" class="sm:hover:scale-150 transition-all duration-300 ease-in-out hover:scale-105 w-60 cursor-pointer border border-gray-300 rounded hover:border-blue-500" onclick="showCertificate('./img/certificate1.png')"/>
+                    <img src="./img/certificate2.png" alt="Certificate 2" class="sm:hover:scale-150 transition-all duration-300 ease-in-out hover:scale-105 w-60 cursor-pointer border border-gray-300 rounded hover:border-blue-500" onclick="showCertificate('./img/certificate2.png')"/>
+                    <img src="./img/certificate3.png" alt="Certificate 3" class="sm:hover:scale-150 transition-all duration-300 ease-in-out hover:scale-105 w-60 cursor-pointer border border-gray-300 rounded hover:border-blue-500" onclick="showCertificate('./img/certificate3.png')"/>
+                </div>
+                <!---certificate showcase-->
+                <div class=" w-3/4 h-96 items-center justify-center bg-white rounded shadow-lg dark:bg-slate-900 hidden md:flex">
+                    <img id="mainCertificate" src="" alt="Click a certificate to preview" class="w-full h-full object-contain hidden"/>
+                    <p id="placeholderText" class="text-gray-500">
+                        Click a certificate on the left to preview it here.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----projects-->
+    <div id="works" class="py-20 dark:bg-slate-900">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+            <!---top-->
+            <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1>
+            <h1 class="text-3xl dark:text-white">Some of My Projects</h1>
+            <p class="text-center text-gray-400 w-auto">
+                I have made some Projects during my college and still practicing my skills.
+            </p>
+            </div>
+            <!---bottom-->
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                <!---project cards-->
+                <div class="hover:scale-105 transition-all duration-300 ease-in-out w-full md:w-4/12 shadow-xl rounded-lg p-10 my-3 md:my-10  flex flex-col gap-3" style="background-image: url(img/logo.png);">
+                    <h1 class="font-medium text-lg text-center dark:text-white italic">Personal Portfolio Website</h1>
+                    <p class="text-gray-400 text-center">A responsive and visually appealing portfolio website built to showcase skills, certifications, and projects. Integrated animations and optimized for SEO.</p>
+                    <a class="text-indigo-600 font-semibold text-sm text-center bg-white dark:bg-slate-900" href="https://github.com/mujahidsayyed09" target="_blank">My Git</a>
+                </div>
+                <!---project cards-->
+                <div class="hover:scale-105 transition-all duration-300 ease-in-out w-full md:w-4/12 shadow-xl rounded-lg p-10 my-3 md:my-10  flex flex-col gap-3" style="background-image: url(img/ecom.png);">
+                    <h1 class="font-medium text-lg text-center dark:text-white italic">E-Commerce Web Application</h1>
+                    <p class="text-gray-400 text-center">Developed a full-stack e-commerce platform with features like product listings, user authentication, payment gateway integration, and an admin dashboard for inventory management.</p>
+                    <a class="text-indigo-600 font-semibold text-sm text-center" href="https://github.com/mujahidsayyed09" target="_blank">My Git</a>
+                </div>
+                <!---project cards-->
+                <div class="hover:scale-105 transition-all duration-300 ease-in-out w-full md:w-4/12 shadow-xl rounded-lg p-10 my-3 md:my-10  flex flex-col gap-3" style="background-image: url(img/task.png);">
+                    <h1 class="font-medium text-lg text-center dark:text-white italic bg-white dark:bg-slate-900">Task Management System</h1>
+                    <p class="text-gray-400 text-center bg-white dark:bg-slate-900">A productivity-focused application that allows users to create, track, and prioritize tasks with a drag-and-drop interface and notification reminders.</p>
+                    <a class="text-indigo-600 font-semibold text-sm text-center bg-white dark:bg-slate-900" href="https://github.com/mujahidsayyed09" target="_blank">My Git</a>
+                </div>
+                <!---project cards-->
+                <div class="hover:scale-105 transition-all duration-300 ease-in-out w-full md:w-4/12 shadow-xl rounded-lg p-10 my-3 md:my-10  flex flex-col gap-3" style="background-image: url(img/weather.png);">
+                    <h1 class="font-medium text-lg text-center dark:text-white italic">Weather Dashboard</h1>
+                    <p class="text-gray-400 text-center">An interactive web application using APIs to fetch real-time weather data, displaying temperature, forecasts, and other weather-related details for any location.</p>
+                    <a class="text-indigo-600 font-semibold text-sm text-center" href="https://github.com/mujahidsayyed09" target="_blank">My Git</a>
+                </div>
+                <!---project cards-->
+                <div class=" hover:scale-105 transition-all duration-300 ease-in-out w-full md:w-4/12 shadow-xl rounded-lg p-10 my-3 md:my-10  flex flex-col gap-3" style="background-image: url(img/chat.png);">
+                    <h1 class="font-medium text-lg dark:text-white text-center italic bg-white dark:bg-slate-900">Chat Application</h1>
+                    <p class="text-gray-400 text-center bg-white dark:bg-slate-900">Created a real-time chat app with user authentication, group chats, and emoji support. Built with WebSocket technology for instant communication.</p>
+                    <a class="text-indigo-600 font-semibold text-sm text-center" href="https://github.com/mujahidsayyed09" target="_blank">My Git</a>
+                </div>
+                <!---project cards-->
+                <div class="hover:scale-105 transition-all duration-300 ease-in-out w-full md:w-4/12 shadow-xl rounded-lg p-10 my-3 md:my-10  flex flex-col gap-3" style="background-image: url(img/blog.png); background-image: image-set(size-10);">
+                    <h1 class="font-medium text-lg text-center dark:text-white italic">AI-Powered Blog Generator</h1>
+                    <p class="text-gray-400 text-center">A dynamic application that uses GPT APIs to generate blog content based on user inputs. Features include topic suggestions, word count adjustments, and grammar corrections.</p>
+                    <a class="text-indigo-600 font-semibold text-sm text-center" href="https://github.com/mujahidsayyed09" target="_blank">My Git</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---contact-->
+    <div id="contact" class="dark:bg-slate-900 pt-20">
+        <div class="container mx-auto">
+            <!--top-->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+                <h1 class="text-3xl dark:text-white">Want to connect?</h1>
+                <p class="w-1/2 text-center text-gray-400">
+                    Please fill out the form below. I will reply soon.
+                </p>
+                </div>
+            <!--bottom-->
+            <form class=" p-8 flex flex-col gap-5 items-center mb-0">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" type="text" placeholder="Enter Your Full Name">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" type="email" placeholder="Email">
+                <textarea class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" cols="30" rows="10" placeholder="Message...."></textarea>
+                <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!---footer-->
+    <footer class="w-full bg-gray-800">
+        <!---intro content-->
+        <div class="container mx-auto py-5 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="./img/logo.png" alt="logo">
+                <span class="text-2xl font-bold text-white"><code>&lt;/&gt;</code></span>
+            </div>
+            <span class="hidden md:block font-medium text-white"><button class="bg-green-400 rounded-md w-20 hover:scale-105" onclick="window.location.href='tel:+1234567890';">Call Now</button>
+              <button class="bg-blue-600 w-20 rounded-md hover:scale-105" onclick="window.location.href='mailto:mujahidsayed203@gmail.com';">Gmail</button> Design with Mujahid.</span>
+            <div class="flex gap-2">
+                <a href="https://www.facebook.com/login/" target="_blank" ><img class="w-4 cursor-pointer" src="img/facebook.png" alt="facebook logo"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="w-4 cursor-pointer" src="img/instagram.png" alt="instagram logo"></a>
+                <a href="https://x.com/" target="_blank" ><img class="w-4 cursor-pointer" src="img/twitter.png" alt="twitter logo"></a>
+                <a href="https://www.linkedin.com/in/mujahidsayyed" target="_blank" ><img class="w-4 cursor-pointer" src="img/linkedin.png" alt="linkedin logo"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+    <style>
+        .container{
+            width: 92%;
+        }
+    </style>
+</body>
+</html>
