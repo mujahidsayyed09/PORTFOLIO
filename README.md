@@ -10,3 +10,8 @@ This portfolio is my digital playground, designed to:
 - Share my professional story. 📝
 - Highlight my technical expertise. 💻
 - Showcase projects that I’m proud of. 🚀
+
+## 🌐 Live Website
+
+Visit my website here: [https://mujahidsayyed.github.io/my-website/]:(https://mujahidsayyed09.github.io/PORTFOLIO/)
+
