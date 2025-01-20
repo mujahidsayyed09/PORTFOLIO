@@ -7,6 +7,6 @@ Hello there! 👋 I'm Mujahid Sayyed, a passionate developer who loves turning i
 ## 🚀 About This Website
 This portfolio is my digital playground, designed to:
 
-->Share my professional story. 📝
-->Highlight my technical expertise. 💻
-->Showcase projects that I’m proud of. 🚀
+- Share my professional story. 📝
+- Highlight my technical expertise. 💻
+- Showcase projects that I’m proud of. 🚀
