@@ -13,5 +13,5 @@ This portfolio is my digital playground, designed to:
 
 ## 🌐 Live Website
 
-Visit my website here: (https://mujahidsayyed09.github.io/PORTFOLIO/)
+Visit my website here: (https://mujahids.netlify.app/)
 
